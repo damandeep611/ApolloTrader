@@ -6,56 +6,39 @@ function OurFeatures() {
   return (
     <Container>
       <div>
-      <h2 className='text-4xl font-semibold py-4'>Key Features of SEO 2.0</h2>
-    </div>
-    <div className='grid md:grid-cols-3 gap-3'>
-      <FeatureCard
-      title="Ai Driven Automation"
-      description="Simplify complex SEO tasks through automation, allowing you to focus on strategic decision-making and creative content production."
-      iconUrl="https://aiseo.ai/assets/images/new-landing-ui/seoV2Icons/aiDrivenAutomation.svg"
-
-      />
-       <FeatureCard
-      title="Undetectable Content
-      "
-      description="Generate content that is not only rich in quality but also flies under the radar of AI detection tools, maintaining your site's integrity and uniqueness.
-
-      "
-      iconUrl="https://aiseo.ai/assets/images/new-landing-ui/seoV2Icons/undetectableContent.svg"
-
-      />
-       <FeatureCard
-      title="Enhanced Data Analytics
-      "
-      description="Utilize predictive analytics and real-time data to refine your SEO strategies, ensuring they are data-driven and result-oriented.
-
-      "
-      iconUrl="https://aiseo.ai/assets/images/new-landing-ui/seoV2Icons/enhancedDataAnalysis.svg"
-
-      />
-       <FeatureCard
-      title="Multichannel Optimization
-      "
-      description="Spread your SEO efforts across various platforms with tailored content that boosts visibility and engagement across the digital landscape.
-
-      "
-      iconUrl="https://aiseo.ai/assets/images/new-landing-ui/seoV2Icons/multichannelOptimization.svg"
-
-      />
-
-       <FeatureCard
-      title="Customizable AI Tools
-      "
-      description="Adjust AI functionalities to meet specific SEO goals, from keyword optimization to link building, for a fully personalized SEO experience.
-
-      "
-      iconUrl="https://aiseo.ai/assets/images/new-landing-ui/seoV2Icons/customizableAiTools.svg"
-
-      />
-      
-    </div>
+        <h2 className="text-4xl font-semibold py-4">
+          Key Features of Apollo 2.0
+        </h2>
+      </div>
+      <div className="grid md:grid-cols-3 gap-3">
+        <FeatureCard
+          title="Advanced Backtesting Engine"
+          description="Simulate trading strategies across historical data sets. Analyze performance metrics, optimize parameters, and identify profitable opportunities."
+          iconUrl="https://your-website.com/icons/backtesting-engine.svg" // Replace with your image URL
+        />
+        <FeatureCard
+          title="Real-Time & Historical Data Feeds"
+          description="Access comprehensive market data, including historical prices, technical indicators, and fundamental data, to inform your backtesting strategies."
+          iconUrl="https://your-website.com/icons/data-feeds.svg" // Replace with your image URL
+        />
+        <FeatureCard
+          title="Portfolio Optimization Tools"
+          description="Build well-diversified portfolios and maximize returns while minimizing risk. Our tools help you create balanced investment strategies based on backtesting results."
+          iconUrl="https://your-website.com/icons/portfolio.svg" // Replace with your image URL
+        />
+        <FeatureCard
+          title="Risk Management Features"
+          description="Set stop-loss and take-profit orders, calculate volatility, and monitor portfolio performance. Backtest with risk management strategies to mitigate potential losses."
+          iconUrl="https://your-website.com/icons/shield.svg" // Replace with your image URL
+        />
+        <FeatureCard
+          title="Customizable Backtesting Parameters"
+          description="Tailor your backtesting simulations to specific scenarios. Adjust trading conditions, fees, and market variables to gain deeper insights into strategy effectiveness."
+          iconUrl="https://your-website.com/icons/settings.svg" // Replace with your image URL
+        />
+      </div>
     </Container>
-  )
+  );
 }
 
 export default OurFeatures
