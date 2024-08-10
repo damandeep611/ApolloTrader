@@ -1,16 +1,16 @@
 import React from 'react'
 import Container from '../../layout/Container'
-import imageOne from '../../../public/logos/sLogo.svg'
-import imagep from '../../../public/logos/pLogo.svg'
-import imagem from '../../../public/logos/mLogo.svg'
-import imagedd from '../../../public/logos/ddLogo.svg'
-import imaged from '../../../public/logos/dLogo.svg'
-import productHunt from '../../../public/logos/productHuntLandingStars.svg'
-import productLogo from '../../../public/logos/productHuntLogo.svg'
-import trustpilot from '../../../public/logos/trustpilotLandingStars.svg'
-import trustpilotLogo from '../../../public/logos/trustpilotLogo.svg'
-import g2 from '../../../public/logos/g2LandingStars.svg'
-import g2Logo from '../../../public/logos/g2Logo.svg'
+import imageOne from "../../../src/logos/sLogo.svg";
+import imagep from "../../../src/logos/pLogo.svg";
+import imagem from "../../../src/logos/mLogo.svg";
+import imagedd from "../../../src/logos/ddLogo.svg";
+import imaged from "../../../src/logos/dLogo.svg";
+import productHunt from "../../../src/logos/productHuntLandingStars.svg";
+import productLogo from "../../../src/logos/productHuntLogo.svg";
+import trustpilot from "../../../src/logos/trustpilotLandingStars.svg";
+import trustpilotLogo from "../../../src/logos/trustpilotLogo.svg";
+import g2 from "../../../src/logos/g2LandingStars.svg";
+import g2Logo from "../../../src/logos/g2Logo.svg";
 
 import CompanyCard from '../Cards/CompanyCard'
 
